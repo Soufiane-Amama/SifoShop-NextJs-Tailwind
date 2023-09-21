@@ -28,11 +28,9 @@ export default function RootLayout({ children }) {
       <body className={bodyFont.className}>
         <ThemeProvider>
           <OpenMenuProvider>
-            <div className="container mx-auto px-8 min-h-screen flex flex-col justify-between">
               <Navbar />
                {children}
               <Footer />
-            </div>
           </OpenMenuProvider>
         </ThemeProvider>
       </body>

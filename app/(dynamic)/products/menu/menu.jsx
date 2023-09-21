@@ -19,12 +19,12 @@ async function getData() {
 
 
   return (
-    <div className="bg-[#374151] text-gray-200 flex justify-center items-center p-1 flex-row h-20 py-8 mx-auto">
-    <ul className="items-stretch mx-5 gap-3 justify-evenly flex flex-wrap space-x-5 lg:flex">
-      <li className="flex text-sm hover:text-pink-400"><Link href={"/products"}>All</Link></li>
+    <div className="bg-[#374151] text-gray-200 flex justify-center items-center flex-row h-fit py-5 px-4 mx-auto">
+    <ul className="flex-row mx-auto gap-3 justify-around flex flex-wrap space-x-5 lg:flex">
+      <li className="flex text-sm w-fit hover:text-pink-400 bg-orange-300"><Link href={"/products"}>All</Link></li>
       {
           categories.map(category => (
-            <li key={categories.indexOf(category)}  className="flex text-sm hover:text-pink-400"><Link href={`/products/category/${category}`}>{category}</Link></li>
+            <li key={categories.indexOf(category)}  className="flex text-sm w-fit hover:text-pink-400 bg-orange-300"><Link href={`/products/category/${category}`}>{category}</Link></li>
           ))
       }
     </ul> 
