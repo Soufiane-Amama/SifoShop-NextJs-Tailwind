@@ -18,7 +18,7 @@ export default function Home() {
           Experience <span className='text-pink-400'>Shopping</span> at Its Finest!
         </h1>
         <p className='text-2xl leading-8'>
-        Get ready to explore our exceptional shopping world. 
+        Get ready to explore our exceptional shopping world.
         High-quality and incredible variety at astonishing prices.
         Start your journey today and easily find everything you need.
         Discover excellence in every corner of our store. An unforgettable
