@@ -200,7 +200,7 @@ export default function Home() {
 		</div>
 	</div>
 </section>
-
+ 
  <hr className='my-3 bg-black'/>
      </>
   )
