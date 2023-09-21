@@ -14,7 +14,7 @@ export default function Home() {
     <div className='container mx-auto px-4 flex items-center gap-24 min-h-screen my-16 min-[320px]:flex-col-reverse md:flex-col-reverse lg:flex-row'> 
      
       <div className='flex flex-1 flex-col gap-12 mx-3'>
-        <h1 className='min-[320px]:text-4xl  md:text-6xl font-black uppercase'>
+        <h1 className='min-[320px]:text-4xl md:text-6xl font-black uppercase'>
           Experience <span className='text-pink-400'>Shopping</span> at Its Finest!
         </h1>
         <p className='text-2xl leading-8'>
@@ -38,7 +38,7 @@ export default function Home() {
     </div>
     <hr className='bg-gray-300 my-3'/>
 
- <section className="dark:bg-gray-800 dark:text-gray-100">
+<section className="dark:bg-gray-800 dark:text-gray-100">
 	<div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
 		<div>
 			<h2 className="text-3xl font-bold tracki text-center sm:text-5xl dark:text-gray-50">Our offerings are satisfactory</h2>
@@ -153,7 +153,6 @@ export default function Home() {
 	</div>
 </section>
 
- <div>
  <section className="p-6 dark:bg-gray-800 dark:text-gray-100 my-4">
 	<div className="container p-4 mx-auto text-center">
 		<h2 className="text-4xl font-bold" _msttexthash="13092430" _msthash="1">Trusted by the industry leaders</h2>
@@ -201,7 +200,7 @@ export default function Home() {
 		</div>
 	</div>
 </section>
- </div>
+
  <hr className='my-3 bg-black'/>
      </>
   )
