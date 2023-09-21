@@ -14,7 +14,7 @@ export default function Home() {
     <div className='container mx-auto px-4 flex items-center gap-24 min-h-screen my-16 min-[320px]:flex-col-reverse md:flex-col-reverse lg:flex-row'> 
      
       <div className='flex flex-1 flex-col gap-12 mx-3'>
-        <h1 className='min-[320px]:text-4xl md:text-6xl font-black uppercase'>
+        <h1 className='min-[320px]:text-4xl  md:text-6xl font-black uppercase'>
           Experience <span className='text-pink-400'>Shopping</span> at Its Finest!
         </h1>
         <p className='text-2xl leading-8'>
