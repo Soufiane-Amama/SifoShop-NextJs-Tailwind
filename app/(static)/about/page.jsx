@@ -9,7 +9,7 @@ export const metadata = {
 
 const About = () => {
   return (
-    <div className="container mx-auto px-10 w-full flex flex-col items-center justify-center min-h-screen py-20">
+    <div className="container mx-auto px-5 w-full flex flex-col items-center justify-center min-h-screen py-20">
       
       <div className=" w-4/6 min-[320px]:w-full md:w-4/6 mb-10 p-5">
       <h1 className="font-bold tracking-[0.2rem] mb-2">ABOUT SIFOSHOP</h1>

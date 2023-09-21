@@ -33,7 +33,7 @@ export default function Home() {
     </div>
 
     <hr className='bg-gray-300 my-3'/>
-    <div className='bg-gradient-to-r from-rose-100 to-teal-100 px-10'>
+    <div className='bg-gradient-to-r from-rose-100 to-teal-100 px-10 flex justify-center items-center'>
     <Category id={data} /> 
     </div>
     <hr className='bg-gray-300 my-3'/>
